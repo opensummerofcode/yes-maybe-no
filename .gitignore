@@ -1,26 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-
+# Logs
+logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-.vscode
-firebase-debug.log*
-.firebase
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-.next
-*.d.ts
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env*
+!.env.example

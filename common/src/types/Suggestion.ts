@@ -1,0 +1,1 @@
+import { ApplicantStatus } from './Applicant';
